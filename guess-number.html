@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess number</title>
+    <link rel="stylesheet" href="./css/guess-number.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@500&family=Poppins:wght@300&family=Roboto+Mono:wght@300;600;700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <div id="header">
+        <h2>Let cat-mathematic work instead of you!</h2>
+        <p>What would you like to do today?</p>
+        <hr />
+
+        <div id="menu">
+          <a href="../css-explanator/css-explanator.html" >CSS EXPLANATOR</a>
+          <a href="../prime/is-it-a-prime-number.html">PRIME NUMBER</a>
+          <a href="guess-number.html" class="active">GUESS NUMBER</a>
+          <a href="../two-num-calc/two-num-calc.html">2 NUMBER CALCULATION</a>
+          <a href="">PROJECT 5</a>
+        </div>
+
+        <p> Time for mind-reading! Think an integer from 1 to 100 and i guess it</p>
+      
+
+
+      <div class="main">
+
+        <div id="content">
+          
+          <p id="begin" style="color:yellow"><b>CHOOSE MODE TO START</b></p>
+         
+      
+            <button id="btn" class="button">USER GUESS</button>
+            <button id="btnCat" class="button">CAT GUESS</button>
+            <div id="question"></div>
+
+            <div class="hide">
+              <button class="button"id="less">LESS</button>
+              <button class="button"id="more">MORE</button>
+              <button class="button"id="mynumber">It's my number!</button>
+              <!-- <button class="button"id="stop">STOP GAME</button> -->
+
+              <label id="label"  for="input">Guess what number i guessed. <br><br> For exit type EXIT</label>
+              <input class="input" type="text" id="input">
+             <p id="finalText"></p>
+          </div>
+           
+          </div>
+
+
+          <img id="cat" src="smart-cat1.png" alt="" />
+        </div>
+
+        </div>
+
+
+      <div id="footer"></div>
+    </div>
+
+    <script src="./js/guess-number.js"></script>
+  </body>
+</html>

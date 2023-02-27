@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess number</title>
+    <link rel="stylesheet" href="./css/try2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@500&family=Poppins:wght@300&family=Roboto+Mono:wght@300;600;700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <h2>Let cat-mathematic work instead of you!</h2>
+        <p>What would you like to do today?</p>
+        <hr />
+
+        <div id="menu">
+          <a href="../css-explanator/css-explanator.html">CSS EXPLANATOR</a>
+          <a href="../prime/is-it-a-prime-number.html">PRIME NUMBER</a>
+          <a href="guess-number.html" class="active">GUESS NUMBER</a>
+          <a href="../two-num-calc/two-num-calc.html">2 NUMBER CALCULATOR</a>
+          <a href="">PROJECT 5</a>
+        </div>
+
+        <p>
+          Time for mind-reading! Choose the mode: </p>
+         <p>USER-Guess: i think an integer from 0 to 10 and you guess it</p> 
+         <p>CAT-Guess: you think an integer from 1 to 99 and i guess it</p>
+       
+
+        <div class="main">
+          <div id="content">
+
+            <p id="chooseMode" style="color: yellow"><b>CHOOSE MODE TO START</b> </p>
+
+            <button id="btnUserGuess" class="button">USER GUESS</button>
+            <button id="btnCatGuess" class="button">CAT GUESS</button>
+            <div id="questionFromCat"></div>
+
+      
+              <button class="button hide" id="less">LESS</button>
+              <button class="button hide" id="more">MORE</button>
+              <button class="button hide" id="mynumber">It's my number!</button>
+        
+
+             
+              <label class ="hide" id="label" for="input">Input number and press ENTER </label>
+              <input class="input hide" type="number" id="input" />
+              <p style="color: yellow; font-style:bold" id="finalText"></p>
+              <button style="background-color:#E27D5F;"class="button hide" id="stop">STOP GAME</button>
+          
+          </div>
+
+          <img id="cat" src="smart-cat1.png" alt="" />
+        </div>
+      </div>
+
+      <div id="footer"></div>
+
+     
+    </div>
+
+    <script src="./js/try2.js"></script>
+  </body>
+</html>
